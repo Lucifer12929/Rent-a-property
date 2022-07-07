@@ -1,0 +1,53 @@
+.footer {
+    margin-top: 10%;
+    position: relative;
+    /* top: 600px; */
+    height: fit-content;
+    display: grid;
+    background-color: grey;
+  }
+  .subfooter {
+    font-weight: 600;
+    height: fit-content;
+    background: #252525;
+    color: #fff;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-items: center; */
+    text-align: center;
+  }
+  .Payment_methods {
+    font-weight: 600;
+    border-right: 1px #fff solid;
+    justify-self: center;
+    padding-right: 85px;
+    /* margin :10px 30px; */
+  }
+  .payement_method {
+    object-fit: contain;
+    width: 90px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 5px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(60%);
+    transition: filter 0.3s linear 0.3s;
+    cursor: pointer;
+  }
+  
+  .main_footer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .footer_logo {
+    cursor: pointer;
+    object-fit: contain;
+    width: 120px;
+    height: 35px;
+    justify-self: center;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.3s linear 0.3s;
+  }

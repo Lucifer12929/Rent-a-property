@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container{
+    
+    /* top: 550px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+  
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+.card {
+    position: relative;
+    display: grid;
+    text-align: left;
+    row-gap: 20px;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr))
+  }
+  .card_content {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+  }
+  .card-price{
+    color: darkturquoise;
+    margin-left: 10px;
+  }
+
+  .card-title{
+    margin-left: 8px;
+    font-weight:100000;
+  }
+  .card-text{
+    margin-left: 8px;
+    color:gray;
+  }
+  .card-bottom{
+    display: flex;
+    object-fit:contain;
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-top: 1px solid black;
+    
+   
+   
+
+  }
